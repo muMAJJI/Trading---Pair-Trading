@@ -13,38 +13,38 @@ You **go long** on the asset that has become undervalued.
     
 ## 🧪 Project Workflow
 
-**Step1:Data Acquisition**
+**Step1: Data Acquisition**
 - Import the list of all companies listed on the NASDAQ.
 
-**Market Cap Classification**
+**Step2: Market Cap Classification**
 - Group companies into:
      - Large-cap: Market cap > $10 billion.
      - Mid-cap: $2 billion < Market cap ≤ $10 billion.
 
-**Liquidity Filter**
+**Step3: Liquidity Filter**
 - Select the top 100 companies by average trading volume to ensure sufficient liquidity.
 
-**Price Normalization**
+**Step4: Price Normalization**
 
 - Normalize historical price series for comparability across assets.
 
-**Distance Calculation**
+**Step5: Distance Calculation**
 
 - Compute Euclidean distances between normalized price series to find closely moving pairs within the same group (Large-cap or Mid-cap).
 
-**Pair Selection**
+**Step6: Pair Selection**
 
 - Select pairs with the smallest distances, indicating strong co-movement.
 
-**Sector Consistency Filter**
+**Step7: Sector Consistency Filter**
 
 - Retain only pairs from the same sector to increase the likelihood that both are influenced by similar macroeconomic or industry-specific factors.
 
-**Cointegration Testing**
+**Step8: Cointegration Testing**
 
 - Apply the Johansen cointegration test to validate long-term statistical relationships. Discard non-cointegrated pairs.
 
-**Trading Signal Generation**
+**Step9: Trading Signal Generation**
 
 - Define entry and exit thresholds on the spread between the paired assets.
 
