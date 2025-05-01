@@ -8,8 +8,9 @@ This project explores the implementation of a pairs trading strategy, a form of 
 
 ## 🔍 Strategy Overview
 The core idea behind pairs trading is that if two assets are cointegrated—i.e., they have a stable long-term relationship—then temporary divergences in their prices can be exploited. When such a divergence occurs, the strategy assumes that prices will revert to their historical equilibrium. Therefore:
-You **short** the asset that has become overvalued.
-You **go long** on the asset that has become undervalued.
+
+- You **short** the asset that has become overvalued.
+- You **go long** on the asset that has become undervalued.
     
 ## 🧪 Project Workflow
 
