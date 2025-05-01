@@ -19,7 +19,7 @@ You **go long** on the asset that has become undervalued.
 **Step2: Market Cap Classification**
 - Group companies into:
      - **Large-cap**: Market cap > $10 billion.
-     - **Mid-ca**p: $2 billion < Market cap ≤ $10 billion.
+     - **Mid-cap**: $2 billion < Market cap ≤ $10 billion.
 
 **Step3: Liquidity Filter**
 - Select the top 100 companies by average trading volume to ensure sufficient liquidity.
