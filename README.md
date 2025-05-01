@@ -18,8 +18,8 @@ You **go long** on the asset that has become undervalued.
 
 **Step2: Market Cap Classification**
 - Group companies into:
-     - Large-cap: Market cap > $10 billion.
-     - Mid-cap: $2 billion < Market cap ≤ $10 billion.
+     - **Large-cap**: Market cap > $10 billion.
+     - **Mid-ca**p: $2 billion < Market cap ≤ $10 billion.
 
 **Step3: Liquidity Filter**
 - Select the top 100 companies by average trading volume to ensure sufficient liquidity.
@@ -42,7 +42,7 @@ You **go long** on the asset that has become undervalued.
 
 **Step8: Cointegration Testing**
 
-- Apply the Johansen cointegration test to validate long-term statistical relationships. Discard non-cointegrated pairs.
+- Apply the **Johansen cointegration** test to validate long-term statistical relationships. Discard non-cointegrated pairs.
 
 **Step9: Trading Signal Generation**
 
